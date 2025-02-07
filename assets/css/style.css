@@ -177,7 +177,20 @@ body {
 }
 
 
+.show-more-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin: 5px 0px;
+  transition: color 0.25s ease;
+  color: var(--light-gray);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+}
 
+.show-more-btn:hover {
+  color: var(--vegas-gold);
+}
 
 
 /*-----------------------------------*\
@@ -950,7 +963,16 @@ main {
 /* Nested timeline styles */
 .nested-timeline {
   margin-top: 10px;
-  padding-left: 15px; /* Align with existing margin-left of timeline-list */
+  padding-left: 0px;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.nested-timeline.visible {
+  max-height: 500px; /* Adjust this value based on your content */
+  opacity: 1;
 }
 
 .nested-timeline div {

@@ -117,3 +117,16 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+
+function toggleTheses() {
+  const thesesSection = document.getElementById('thesesSection');
+  const button = document.getElementById('thesesButton');
+
+  if (!thesesSection.classList.contains('visible')) {
+    thesesSection.classList.add('visible');
+    button.innerHTML = 'Hide Theses ▲';
+  } else {
+    thesesSection.classList.remove('visible');
+    button.innerHTML = 'Show Theses ▼';
+  }
+}
