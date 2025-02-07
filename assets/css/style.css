@@ -1555,14 +1555,14 @@ ion-icon {
   .avatar-box {
     background: var(--bg-gradient-onyx);
     border-radius: 20px;
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     overflow: hidden; /* Ensure image doesn't spill outside container */
   }
 
   .avatar-box img {
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     object-fit: cover; /* Makes image cover the container */
     object-position: center 0%; /* Move image up by positioning from top */
   }
