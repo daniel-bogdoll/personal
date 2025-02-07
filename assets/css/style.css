@@ -789,15 +789,15 @@ main {
 .avatar-box {
   background: var(--bg-gradient-onyx);
   border-radius: 20px;
-  width: 100px;
-  min-width: 100px;
-  height: 100px;
+  width: 80px;
+  min-width: 80px;
+  height: 80px;
   overflow: hidden; /* Ensure image doesn't spill outside container */
 }
 
 .avatar-box img {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   object-fit: cover; /* Makes image cover the container */
   object-position: center 0%; /* Move image up by positioning from top */
 }
