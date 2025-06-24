@@ -109,7 +109,9 @@
 
 }
 
-
+:target {
+  scroll-margin-top: 100px; /* Adds a margin when scrolling to an element */
+}
 
 
 
