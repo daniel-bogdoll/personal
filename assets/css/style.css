@@ -433,8 +433,7 @@ main {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  gap: 25px;
-  min-width: 320px;
+  gap: 15px;
 }
 
 .avatar-box {
@@ -453,7 +452,7 @@ main {
 .info-content .title {
   color: var(--white-1);
   background: var(--onyx);
-  font-size: var(--fs-6); /* Match regular <p> font size */
+  font-size: var(--fs-8);
   font-weight: var(--fw-300);
   width: max-content;
   padding: 3px 12px;
